@@ -9,7 +9,7 @@ jobs:
         with:
           node-version: "16"
       - name: Get code
-        uses: action/checout@v3
+        uses: action/checkout@v3
       - name: install dependensis
         run: npm ci
       - name: Build project
