@@ -16,6 +16,6 @@ jobs:
       - name: point
         run: ls -la
       - name: force
-        run: npm audit fix --force
+        run: npm i --force
       - name: Build project
         run: npm run dev
