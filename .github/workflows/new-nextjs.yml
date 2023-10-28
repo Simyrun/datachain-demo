@@ -16,4 +16,4 @@ jobs:
       - name: point
         run: ls -la
       - name: Build project
-        run: npm run dev
+        run: node -v
