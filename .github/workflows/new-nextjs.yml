@@ -12,6 +12,6 @@ jobs:
         with:
           node-version: "16"
       - name: Get code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Build project
         run: npm run dev 
