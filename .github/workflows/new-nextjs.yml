@@ -13,5 +13,7 @@ jobs:
           node-version: "16"
       - name: Get code
         uses: actions/checkout@v4
+      - name: point
+        run: ls -la
       - name: Build project
         run: npm run dev 
