@@ -10,7 +10,5 @@ jobs:
           node-version: "16"
       - name: Get code
         uses: actions/checkout@v3
-      - name: install dependensis
-        run: npm ci
       - name: Build project
         run: npm run dev 
