@@ -2,6 +2,16 @@
 
 **DataCHAIN** is a service that provides the necessary software tools for analytics, visualization, automation and monitoring.
 
+## Installation guide
+
+### on HOST OS
+#### Install NodeJS16 
+```
+curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+sudo apt -y install nodejs
+node -v
+```
+
 ## Setup
 
 To run this project locally you need to copy this repository to your computer and run on <code>localhost:3000</code>
@@ -19,8 +29,9 @@ yarn install
 or using npm
 
 ```
-npm install
+npm install --force
 ```
+
 
 After installing all dependencies run the project on a local hosting
 
