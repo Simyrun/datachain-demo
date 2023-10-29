@@ -85,7 +85,7 @@ jobs:
           path: ./out
 
   deploy:
-    needs: test
+    needs: build
     permissions:
       deployments: write
       contents: write
