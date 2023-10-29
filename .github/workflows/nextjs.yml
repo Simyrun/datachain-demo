@@ -1,5 +1,11 @@
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["changes"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 deploy:
-  needs: build
   permissions:
     deployments: write
     contents: write
