@@ -4,7 +4,8 @@
 
 ## Installation guide
 
-on HOST OS
+### on HOST OS
+#### Install NodeJS16 
 ```
 curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
 sudo apt -y install nodejs
@@ -28,8 +29,9 @@ yarn install
 or using npm
 
 ```
-npm install
+npm install --force
 ```
+
 
 After installing all dependencies run the project on a local hosting
 
